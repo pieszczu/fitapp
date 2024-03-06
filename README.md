@@ -1,4 +1,4 @@
-# fitapp - mobile application on Android
+# fitapp - mobile application on Android (Kotlin+Firebase)
  <--- Link to a video showcasing the functionality of this application
 
 The application will allow the user to track steps and distance, record completed training sessions and count burned calories. 
