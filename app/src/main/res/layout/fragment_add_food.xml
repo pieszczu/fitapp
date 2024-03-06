@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addFoodtoDBFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/MainWindow"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/addproduct_mainwindow">
+
+        <TextView
+            android:id="@+id/titleFood"
+            android:textColor="#FFEF00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Add a new product"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:id="@+id/barBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/yellow"
+                android:textColorHint="@color/yellow"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/yellow"
+
+                app:hintTextColor="@color/yellow">
+
+                <EditText
+                    android:id="@+id/barCode"
+                    android:layout_width="150dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:drawableStart="@drawable/baseline_qr_code_scanner_24"
+                    android:drawablePadding="2dp"
+                    android:drawableTint="#FFEF00"
+                    android:gravity="center"
+                    android:hint="Barcode"
+                    android:inputType="text"
+                    android:textColorHint="#FFEF00" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnScan"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/zagreen"
+                android:text="SCAN"
+                android:textSize="12sp"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/categoryFood"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#FFEF00"
+            android:padding="5dp"
+            android:gravity="center"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:hintTextColor="@color/yellow"
+            android:textColorHint="@color/yellow"
+            app:boxBackgroundMode="outline"
+            app:boxStrokeColor="@color/yellow"
+            >
+        <EditText
+            android:id="@+id/ProductName"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Enter Name"
+            android:textColorHint="#FFEF00"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:gravity="center"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:id="@+id/ProductBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/yellow"
+                android:textColorHint="@color/yellow"
+                app:boxBackgroundMode="outline"
+                android:layout_marginLeft="25dp"
+                app:boxStrokeColor="@color/yellow"
+                >
+            <EditText
+    android:id="@+id/kcal"
+    android:inputType="numberDecimal"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+                android:drawableStart="@drawable/fire_2985511"
+                android:drawablePadding="4dp"
+                android:drawableTint="#FFA500"
+    android:hint="Kcal"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:textColorHint="#FFEF00"/>
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="5dp"
+                android:gravity="center">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:hintTextColor="@color/yellow"
+                    android:textColorHint="@color/yellow"
+                    app:boxBackgroundMode="outline"
+                    app:boxStrokeColor="@color/yellow"
+                    >
+                <EditText
+                    android:id="@+id/Protein"
+                    android:inputType="numberDecimal"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Protein"
+                    android:drawableStart="@drawable/meat_669914"
+                    android:drawablePadding="4dp"
+                    android:drawableTint="#FC1414"
+                    android:gravity="center"
+                    android:textColorHint="#FFEF00" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:hintTextColor="@color/yellow"
+                    android:textColorHint="@color/yellow"
+                    app:boxBackgroundMode="outline"
+                    app:boxStrokeColor="@color/yellow"
+                    >
+                <EditText
+                    android:id="@+id/Fat"
+                    android:inputType="numberDecimal"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Fat"
+                    android:drawableStart="@drawable/trans_fat_2400740"
+                    android:drawablePadding="4dp"
+                    android:drawableTint="#FFEF00"
+                    android:gravity="center"
+                    android:textColorHint="#FFEF00" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:hintTextColor="@color/yellow"
+                    android:textColorHint="@color/yellow"
+                    app:boxBackgroundMode="outline"
+                    app:boxStrokeColor="@color/yellow"
+                    >
+                <EditText
+                    android:id="@+id/Carbs"
+                    android:inputType="numberDecimal"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Carbs"
+                    android:drawableStart="@drawable/bread_7752089"
+                    android:drawablePadding="4dp"
+                    android:drawableTint="#DEB887"
+                    android:gravity="center"
+                    android:textColorHint="#FFEF00" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/addProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/yellow"
+            android:text="ADD"
+            android:textColor="@color/white"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

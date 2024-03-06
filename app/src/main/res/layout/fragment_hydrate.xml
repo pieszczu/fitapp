@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HydrateFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/addproduct_mainwindow"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Your daily hydrate"
+            android:gravity="center"
+            android:textColor="#FFEF00"
+            android:textSize="30sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <ImageButton
+                android:id="@+id/backDate"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_keyboard_arrow_left_24"/>
+        <TextView
+            android:id="@+id/datePick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15.11.2023"
+            android:textSize="15sp"/>
+            <ImageButton
+                android:id="@+id/nextDate"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_keyboard_arrow_right_24"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="40dp">
+        <!-- Tekst po lewej -->
+        <ImageButton
+            android:id="@+id/deleteWater"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/drawable_corner"
+            android:padding="10dp"
+            android:src="@drawable/baseline_horizontal_rule_24"
+            app:tint="@color/yellow">
+
+        </ImageButton>
+
+        <!-- Pasek postępu -->
+
+            <!-- Tekst po prawej -->
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:indeterminateOnly="false"
+                android:max="200"
+                android:progressDrawable="@drawable/circle_progress_hydrate"
+                android:rotation="-90" />
+
+            <ImageButton
+            android:id="@+id/addWater"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/drawable_corner"
+            android:padding="10dp"
+            android:src="@drawable/baseline_add_24"
+            app:tint="@color/yellow">
+
+        </ImageButton>
+        </LinearLayout>
+
+        <!-- Tekst w środku paska postępu -->
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/waterDaily"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="/2l"
+        android:textSize="15dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout4"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout4"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

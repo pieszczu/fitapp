@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">FiTapp</string>
+    <string name="loginEdit">Login</string>
+    <string name="email">E-mail</string>
+    <string name="loginEditB">SIGN IN</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="forgotPass">Forgot your password? Click here!</string>
+    <string name="passEdit">Password</string>
+    <string name="passEditt">Cofirm password</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_home">Home</string>
+    <string name="action_chartsTrainings">Charts</string>
+    <string name="action_updateWeight">Update weight</string>
+    <string name="action_chartsMeals">Charts</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_workout">New training</string>
+    <string name="action_addFood">Add to database</string>
+    <string name="action_hydrate">Daily hydrate</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="default_spinner_prompt">Choose an option</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">FitApp</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Zaloguj</string>
+    <string name="previous">Previous</string>
+    <string name="default_notification_channel_id" translatable="false">default_channel_id</string>
+
+    <string name="hello_first_fragment">Siema Pieszczu!</string>
+    <string name="hello_second_fragment"> </string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Workout strings -->
+    <string name="pushup">
+        A push-up is a bodyweight exercise that primarily targets the muscles of the chest, shoulders, and triceps. To perform a push-up, start in a plank position with hands placed slightly wider than shoulder-width apart. Lower your body by bending your elbows until your chest almost touches the ground, then push back up to the starting position.
+        This exercise not only strengthens the upper body but also engages the core muscles for stability. It is a versatile and effective workout that can be adapted to various fitness levels by adjusting hand placement or performing modified versions.
+    </string>
+    <string name="LegsBarbellSquat">
+        The Barbell Squat is a fundamental lower-body exercise that targets the muscles in the thighs, hips, and glutes. To perform a Barbell Squat, start by standing with your feet shoulder-width apart and a barbell resting on your upper back. Keep your chest up, back straight, and slowly lower your body by bending your knees and pushing your hips back. Descend until your thighs are parallel to the ground, then push through your heels to return to the starting position.
+        This compound movement not only builds strength but also enhances overall lower-body muscle development and stability. It is important to maintain proper form to maximize effectiveness and minimize the risk of injury. Adjust the weight on the barbell according to your fitness level and gradually increase it as you progress.
+    </string>
+    <string name="LegsHackSquat">
+        The Hack Squat is a lower-body exercise that primarily targets the quadriceps, hamstrings, and glutes. To perform the Hack Squat, stand with your back against a Hack Squat machine and position your shoulders under the shoulder pads. Place your feet shoulder-width apart, with toes pointing slightly outward. Lower your body by bending your knees and hips, keeping your back straight, until your thighs are parallel to the ground. Push through your heels to return to the starting position.
+        The Hack Squat is an effective alternative to the traditional squat, providing a controlled movement and targeting the lower body muscles with less stress on the lower back. Adjust the machine weight to your fitness level and focus on maintaining proper form throughout the exercise.
+    </string>
+    <string name="LegsHamstringCurls">
+        The Leg Hamstring Curl is an exercise primarily targeting the calf muscles. It is performed on a specialized machine where you lie face down and straighten your legs, then bend your knees towards your buttocks by contracting the calf muscles. This exercise is an effective way to strengthen the calf muscles, contributing to improved lower body strength and stability.
+        It is important to maintain smooth and controlled movement and to adjust the resistance appropriately to ensure an effective workout and prevent injuries.
+    </string>
+    <string name="LegsQuadExtensions">
+        Quad Extensions is an exercise designed to target the quadriceps muscles, commonly performed using a leg extension machine.
+        During this exercise, you typically sit on the machine with your legs positioned under the leg pad. Then, you extend your legs upward against the resistance provided by the machine, focusing on contracting your quadriceps muscles.
+        Executing this movement in a controlled manner is essential, ensuring that you maintain proper form and avoid jerky motions.
+        It is crucial to adjust the machine is weight or resistance to match your strength level, allowing for an effective workout while minimizing the risk of injury.
+        By incorporating Quad Extensions into your lower-body routine, you can strengthen your quadriceps, leading to enhanced lower body strength, stability, and overall leg development.
+    </string>
+    <string name="BicepsDragCurl">
+        The Biceps Drag Curl is a variation of the traditional bicep curl. It involves keeping the elbows back throughout the movement,
+        which shortens the range of motion and places more emphasis on the biceps muscles. To perform it, grip a barbell with your palms facing up,
+        stand with feet shoulder-width apart, and keep your back straight. As you lift the barbell towards your torso, focus on squeezing your biceps.
+        Lower the weight back down slowly. This exercise isolates the biceps while minimizing involvement from other muscle groups.
+        Maintain proper form and avoid using momentum. Adjust the weight to your strength level.
+    </string>
+    <string name="BicepsDumbbellCurl">
+        The Biceps Dumbbell Curl is a fundamental exercise for targeting the biceps muscles. To perform it, hold a dumbbell in each hand with your arms fully extended and palms facing forward. Keep your elbows close to your sides as you curl the weights upward, focusing on squeezing your biceps at the top of the movement.
+        Lower the weights back down under control to the starting position. This exercise effectively isolates the biceps and can be performed with various grip positions
+        to target different areas of the muscle. Keep your movements smooth and controlled, and avoid swinging the weights or using momentum to
+        ensure maximum muscle engagement. Adjust the weight according to your strength level to achieve the desired intensity.
+    </string>
+    <string name="BicepsEZBarbellCurl">
+        The Biceps EZ Barbell Curl is a classic exercise targeting the biceps muscles. To perform it, grasp an EZ barbell with an underhand grip, hands shoulder-width apart. Keep your elbows close to your sides and curl the barbell upward towards your shoulders, focusing on contracting your biceps. Pause briefly at the top of the movement, then slowly lower the barbell back down to the starting position.
+        This exercise effectively isolates the biceps while also engaging the forearms. Maintain proper form throughout the exercise, avoiding excessive swinging or
+        using momentum to lift the weight. Adjust the weight according to your strength level to ensure proper muscle engagement and prevent injury.
+    </string>
+</resources>

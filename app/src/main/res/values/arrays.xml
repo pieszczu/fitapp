@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="food_ComboBox">
+        <item>Fruits and Vegetables</item>
+        <item>Meat and fish</item>
+        <item>Dairy</item>
+        <item>Gain products</item>
+        <item>Drinks</item>
+    </string-array>
+    <string-array name="SEX">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="Activity_level">
+        <item>non-physical work, low physical activity</item>
+        <item>non-physical work, training 2 times a week</item>
+        <item>light physical work, training 3 or 4 times a week</item>
+        <item>physical work, training 5 times a week</item>
+        <item>heavy physical work, training everyday</item>
+    </string-array>
+    <string-array name="type_of_training">
+        <item>running</item>
+        <item>gym workout</item>
+    </string-array>
+    <string-array name="video_options">
+        <item>Push-Up</item>
+        <item>Legs Hamstring Curls</item>
+        <item>Legs Barbell Squat</item>
+        <item>Legs Hack Squat</item>
+        <item>Legs Quad Extensions</item>
+        <item>Biceps Drag Curl</item>
+        <item>Biceps Dumbbell Curl</item>
+        <item>Biceps EZ Barbell Curl</item>
+        <item>Legs Hamstring Curls</item>
+        <item>Legs Hamstring Curls</item>
+        <item>Legs Hamstring Curls</item>
+
+    </string-array>
+    <string-array name="video_links">
+        <item>IODxDxX7oi4</item>
+        <item>ANKSmhT0dTk</item>
+        <item>gslEzVggur8</item>
+        <item>bGbHOeHXnB8</item>
+        <item>5tGLgFGDcDE</item>
+        <item>cD61J7wAEaM</item>
+        <item>MCC0Wj9RErI</item>
+        <item>RkcYuubJR54</item>
+        <item>ANKSmhT0dTk</item>
+        <item>ANKSmhT0dTk</item>
+        <item>ANKSmhT0dTk</item>
+
+    </string-array>
+</resources>

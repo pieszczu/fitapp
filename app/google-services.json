@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "639534149828",
+    "firebase_url": "https://fitapp-loginbase-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fitapp-loginbase",
+    "storage_bucket": "fitapp-loginbase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639534149828:android:615f2a76e336c179f1d991",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationpls"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639534149828-7i30udfqt5m5cdmkar09tkm7bqmf3fqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO4FyNspgI_pIK_UxhYr3MClRIhNHeAhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639534149828-7i30udfqt5m5cdmkar09tkm7bqmf3fqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

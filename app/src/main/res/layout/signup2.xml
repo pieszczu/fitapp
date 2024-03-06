@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grayLight">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:id="@+id/signUp2">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grayTheme"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="74.5dp"
+            android:layout_height="55.5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_word"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/boxlog"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_rounded_corners"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <TextView
+            android:id="@+id/signUp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:letterSpacing="0.15"
+            android:text="@string/signUp"
+            android:textColor="#E1D9D1"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/yellow"
+                android:textColorHint="@color/yellow"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/yellow"
+                app:boxStrokeWidth="2dp"
+                android:backgroundTint="@color/yellow"
+                >
+            <EditText
+                android:id="@+id/sName"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+
+                android:drawableStart="@drawable/baseline_drive_file_rename_outline_24"
+                android:drawablePadding="12dp"
+                android:drawableTint="@color/yellow"
+                android:hint="Name"
+                android:inputType="text"
+                android:textColorHint="@color/yellow"
+                android:textSize="20dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <Spinner
+                android:id="@+id/sKM"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/yellow"
+                android:drawableStart="@drawable/baseline_lock_person_24"
+                android:drawablePadding="12dp"
+                android:drawableTint="@color/yellow"
+                android:inputType="text"
+                android:gravity="center"
+                android:textColorHint="@color/yellow"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/yellow"
+                android:textColorHint="@color/yellow"
+                app:boxBackgroundMode="outline"
+
+                app:boxStrokeColor="@color/yellow"
+                app:boxStrokeWidth="2dp"
+                android:backgroundTint="@color/yellow"
+                >
+            <EditText
+                android:id="@+id/sAge"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:drawableStart="@drawable/baseline_nature_people_24"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/yellow"
+                android:hint="Age"
+                android:inputType="number"
+                android:textColorHint="@color/yellow"
+                android:textSize="20dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <Spinner
+                android:id="@+id/sAL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/yellow"
+                android:drawableStart="@drawable/baseline_lock_person_24"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/yellow"
+                android:inputType="text"
+                android:textColorHint="@color/yellow"
+                android:textSize="25dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/yellow"
+                android:textColorHint="@color/yellow"
+                app:boxBackgroundMode="outline"
+
+                app:boxStrokeColor="@color/yellow"
+                app:boxStrokeWidth="2dp"
+                android:backgroundTint="@color/yellow"
+                >
+            <EditText
+                android:id="@+id/sHeight"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/baseline_height_24"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/yellow"
+                android:gravity="center"
+                android:hint="Height"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/yellow"
+                android:textSize="20dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/yellow"
+                android:textColorHint="@color/yellow"
+                app:boxBackgroundMode="outline"
+
+                app:boxStrokeColor="@color/yellow"
+                app:boxStrokeWidth="2dp"
+                android:backgroundTint="@color/yellow"
+                >
+            <EditText
+                android:id="@+id/sWeight"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+
+                android:drawableStart="@drawable/baseline_monitor_weight_24"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/yellow"
+                android:gravity="center"
+                android:hint="Weight"
+                android:inputType="numberDecimal"
+                android:textColorHint="@color/yellow"
+                android:textSize="20sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/sBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/drawable_corner"
+            android:padding="20dp"
+            android:text="BMI"
+            android:textColor="@color/yellow"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:hintTextColor="@color/yellow"
+                android:textColorHint="@color/yellow"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/yellow"
+                >
+            <com.google.android.material.textfield.TextInputEditText
+                android:inputType="number"
+                android:id="@+id/sKcal"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:hint="Daily kcal"
+                android:textColorHint="@color/yellow"
+                android:textColor="@color/yellow"
+                android:padding="12dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="right"
+                android:orientation="vertical">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:hintTextColor="@color/yellow"
+                    android:textColorHint="@color/yellow"
+                    app:boxBackgroundMode="outline"
+
+                    app:boxStrokeColor="@color/yellow"
+                    >
+                <EditText
+                    android:id="@+id/sProtein"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+
+                    android:drawableStart="@drawable/meat_669914"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/yellow"
+
+                    android:hint="Protein(g)"
+                    android:textColorHint="@color/yellow"
+                    android:textColor="@color/yellow" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:hintTextColor="@color/yellow"
+                    android:textColorHint="@color/yellow"
+                    app:boxBackgroundMode="outline"
+
+                    app:boxStrokeColor="@color/yellow"
+                    >
+                <EditText
+                    android:id="@+id/sFats"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:drawableStart="@drawable/trans_fat_2400740"
+                    android:drawableTint="@color/yellow"
+                    android:drawablePadding="12dp"
+                    android:hint="Fats(g)"
+                    android:textColorHint="@color/yellow"
+                    android:textColor="@color/yellow" />
+            </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:hintTextColor="@color/yellow"
+                    android:textColorHint="@color/yellow"
+                    app:boxBackgroundMode="outline"
+
+                    app:boxStrokeColor="@color/yellow"
+                    >
+                <EditText
+                    android:id="@+id/sCarbs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+
+                    android:hint="Carbs(g)"
+                    android:drawableStart="@drawable/bread_7752089"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/yellow"
+                    android:textColor="@color/yellow" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn3s"
+        app:backgroundTint="@null"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_rounded_corners"
+        android:textColor="@color/yellow"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="30dp"
+        android:text="REGISTER"
+        app:layout_constraintTop_toBottomOf="@+id/boxlog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

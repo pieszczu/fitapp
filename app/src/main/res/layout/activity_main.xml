@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#122591"
+
+    tools:context=".MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Sign up"
+    android:textColor="@color/black"
+    android:textSize="50dp"
+    android:textStyle="bold"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="80dp"
+    android:layout_marginBottom="50dp"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_height="50dp"
+        android:id="@+id/username"
+        android:hint="🏋🏽‍♂️Username"
+        android:inputType="text"
+        android:layout_marginTop="180dp"
+        android:textSize="25dp"
+        android:gravity="center"
+
+        android:background="@drawable/edittextbackground"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/email"
+        android:hint="📧 E-mail"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="250dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edittextbackground"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/password"
+        android:hint="🔒Password"
+        android:inputType="textPassword"
+
+        android:layout_marginTop="320dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edittextbackground"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/confirmpassword"
+        android:hint="🔒Confirm Password"
+        android:inputType="textPassword"
+
+        android:layout_marginTop="390dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/edittextbackground"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="REGISTER"
+        android:background="@color/yellow"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"/>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.MyApplicationPLS.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/Theme.MyApplicationPLS.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

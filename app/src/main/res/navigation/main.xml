@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@+id/action_home">
+
+    <fragment
+        android:id="@+id/action_home"
+        android:name="com.example.myapplicationpls.MainFragment"
+        android:label="Main"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/action_updateWeight"
+        android:name="com.example.myapplicationpls.weightFragment"
+        android:label="fragment_weight"
+        tools:layout="@layout/fragment_weight" />
+    <fragment
+        android:id="@+id/action_how_to"
+        android:name="com.example.myapplicationpls.guideFragment"
+        android:label="Gym Workouts - GUIDE"
+        tools:layout="@layout/fragment_guide" />
+    <fragment
+        android:id="@+id/action_addFood"
+        android:name="com.example.myapplicationpls.AddDailyFragment"
+        android:label="fragment_add_daily"
+        tools:layout="@layout/fragment_add_daily" />
+    <fragment
+        android:id="@+id/action_addToDatabase"
+        android:name="com.example.myapplicationpls.addFoodtoDBFragment"
+        android:label="Add food"
+        tools:layout="@layout/fragment_add_food" />
+    <fragment
+        android:id="@+id/action_hydrate"
+        android:name="com.example.myapplicationpls.HydrateFragment"
+        android:label="fragment_hydrate"
+        tools:layout="@layout/fragment_hydrate" />
+    <fragment
+        android:id="@+id/action_settings"
+        android:name="com.example.myapplicationpls.settingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/actionTraining2"
+        android:name="com.example.myapplicationpls.actionTraining"
+        android:label="action_training"
+        tools:layout="@layout/action_training" />
+    <fragment
+        android:id="@+id/action_history"
+        android:name="com.example.myapplicationpls.action_history_trainings"
+        android:label="fragment_action_history_trainings"
+        tools:layout="@layout/fragment_action_history_trainings" />
+
+</navigation>
