@@ -10,7 +10,7 @@ Application is available for Android users.
 In this app user can:
   - track his steps, burned calories and distance during a day,
   - track his hydration and weight,
-  - add a new training on the gym,
+  - add a new gym workout,
   - add a meal to breakfast, lunch and dinner section (by scanner or name! - zxing-android-embedded),
   - add a new product do database,
   - check training history,
